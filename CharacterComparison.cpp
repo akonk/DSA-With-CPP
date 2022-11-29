@@ -25,7 +25,7 @@ cout<<"You Entered Digit and digit Ascii value is "<<c<<endl;
     }
     else{
 
-cout<<"Check Your Character Comparison okay.";
+cout<<"Check Your Character Comparison.";
 
 
     }
