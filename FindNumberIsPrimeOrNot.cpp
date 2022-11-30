@@ -1,31 +1,30 @@
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
- int n ;
+  int n;
 
+  cout << "Enter a Number" << endl;
 
-  cout<<"Enter a Number"<<endl;
-  
-  cin>>n;
+  cin >> n;
 
   int i = 2;
 
+  while (i < n)
+  {
 
-  while(i<n){
+    if (n % i == 0)
+    {
 
-  if(n%i==0){
+      cout << "It is prime Number" << i << endl;
+    }
+    else
+    {
 
-    cout<<"It is prime Number"<<i<<endl;
+      cout << "It is not prime Number" << i << endl;
+    }
+    i = i + 1;
   }
-  else{
-
- cout<<"It is not prime Number"<<i<<endl;
-
-  }
-  i = i+1;
-
-  }
-
 }
