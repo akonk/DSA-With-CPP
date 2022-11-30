@@ -1,45 +1,30 @@
 // Using While Loop
 // Find Sum of Even Numbers Upto 'N' Number.
- 
+
 #include <iostream>
 using namespace std;
 
-int main(){
+int main()
+{
 
-int i =  2;
+  int i = 2;
 
-int n = 0 ;
+  int n = 0;
 
-int sum = 0;
+  int sum = 0;
 
+  cout << "Enter a Number";
 
-cout<<"Enter a Number";
+  cin >> n;
 
-cin>>n;   
+  while (i <= n)
+  {
 
-while(i<=n){
+    sum = sum + i; // sum = sum + i ;
 
+    i = i + 2;
+  }
+  cout << sum;
 
-
-
- sum = sum + i; //sum = sum + i ;
- 
-  i =  i + 2 ;
+  return 0;
 }
-  cout<<sum;
-
-return 0;
-}
-
-
-
-
-
-
-
-
-
-
-
-    
-
