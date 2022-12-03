@@ -1,6 +1,12 @@
 #include <iostream>
 using namespace std;
 
+//*****
+//****
+//***
+//**
+//*
+
 int main()
 {
 
@@ -9,11 +15,11 @@ int main()
     while (row <= 5)
     {
 
-        int col = row-1;
+        int col = row - 1;
         while (col <= 4)
         {
             cout << "*";
-            col ++;
+            col++;
         }
         cout << endl;
         row++;
